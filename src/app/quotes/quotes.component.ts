@@ -19,24 +19,6 @@ export class QuotesComponent implements OnInit {
       return <any>new Date(b.datePosted) - <any>new Date(a.datePosted);
     });
   }
-  addedQuote(quote){
-    let arraysize = this.quotes.length;
-    quote.id = arraysize + 1;
-    quote.completeDate = new Date(quote.completeDate)
-    this.quotes.push(quote)
-  }
-  quoteDelete(isRead, index){
-    if (isRead){
-      let toDelete = confirm(`Confirm to delete this Quote?`)
-      if (toDelete){
-        this.quotes.splice(index,1);
-      }
-    }
-  }
-
-  displayInfo(index) {
-    this.quotes[index].showInfo = !this.quotes[index].showInfo;
-  }
   constructor() { }
 
   ngOnInit(): void {
