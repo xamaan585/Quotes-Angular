@@ -8,7 +8,9 @@ import { Quote } from '../quote';
 })
 export class QuotesComponent implements OnInit {
   title = 'Insightful Quotes';
-  
+  quotes:Quote[] = [
+    new Quote (1,'Selb', 'Love Theory', 'Love all,trust a few,do wrong to none.', 'Tim Kim', new Date(2021,12,28),0,0),
+  ]
   constructor() { }
 
   ngOnInit(): void {
