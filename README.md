@@ -1,4 +1,4 @@
-# Quotes_Angular
+# Quotes-Angular
 
 ## Description
 This is angular cli application that displays quotes,allow the user to input new quote,upvote,downvote and delete the quote.
