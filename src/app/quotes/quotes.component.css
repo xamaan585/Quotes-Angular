@@ -6,3 +6,16 @@ h1{
     padding-top: 2%;
     font-family: Arial, Helvetica, sans-serif;
 }
+h4{
+    font-family: 'Architects Dauhter',cursive;
+}
+span{
+    font-weight: 900;
+    font-family: sans-serif;
+}
+.insightful{
+    background-color: rgba(96, 209, 132, 0.301);
+    border-radius: 5px;
+    margin: 4% 4% 4% 5%;
+    padding: 1% 1% 5%;
+}
