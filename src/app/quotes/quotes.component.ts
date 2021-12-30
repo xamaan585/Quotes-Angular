@@ -13,6 +13,7 @@ export class QuotesComponent implements OnInit {
     new Quote (2,'Omar', 'Music', 'Music is like a dream.One that i cannot hear.', 'Ludwig Van Beethoven', new Date(2021,11,28),0,0),
     new Quote (3,'Tom', 'Technology', 'Any sufficiantly advanced technology is equivalent to magic.', 'Arthur C. Clarke', new Date(2021,11,28),0,0),
     new Quote (4,'Mohamed', 'Religion', 'Religion is the bridge between human races.', 'clay Shirky', new Date(2021,11,28),0,0),
+    new Quote (5,'Abdirahman Mohamed', 'Education', 'Education is the passport to the future,for tomorrow belongs to those who prepare for it today.', 'Malcom X', new Date(2021,11,30),0,0)
   ];
   get sortQuotes() {
     return this.quotes.sort((a,b) => {
