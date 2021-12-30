@@ -11,3 +11,19 @@
 #thumpdown{
     font-size: 17px;
 }
+.dislike{
+    margin-left: 10px;
+    background-color: rgb(236, 27, 27);
+    color: white;
+}
+hr{
+    background-color: rgb(4, 158, 158);
+  }
+  #buttons{
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  #clickable{
+    font-family: 'Handlee', cursive;
+    float:right;
+  }
