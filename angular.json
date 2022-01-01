@@ -98,6 +98,14 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/quotes",
+            "netlifyToken": "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",
+            "siteId": "ng deploy"
+          }
         }
       }
     }
